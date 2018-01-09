@@ -17,7 +17,13 @@ html, body {
   font-weight: 700;
 }
 
-/* Main title heading */
-.main-image {
-  margin: 0 auto;
+/* Helping images to stand out on the page */
+.standout-image {
+  border: 5px solid #7e7870;
+  padding: 10px;
+}
+
+/* Links */
+.link:hover {
+  color: #d32f2f;
 }
