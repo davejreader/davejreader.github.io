@@ -1,0 +1,23 @@
+/*------------------------------------------------------------------------------
+ Noodle Web Development CSS
+------------------------------------------------------------------------------*/
+/* Font */
+html, body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* Main title heading */
+.main-heading {
+  letter-spacing: -0.1rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.sub-heading {
+  font-weight: 700;
+}
+
+/* Main title heading */
+.main-image {
+  margin: 0 auto;
+}
