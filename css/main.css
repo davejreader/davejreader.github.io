@@ -40,3 +40,8 @@ html, body {
   padding-right: 5px;
   padding-left: 5px;
 }
+
+/* Parallax height */
+.parallax-container {
+  height: 380px;
+}
