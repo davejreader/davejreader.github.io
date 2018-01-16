@@ -21,7 +21,7 @@
 <body>
   <!-- Nav menu start -->
   <nav class="transparent" role="navigation">
-    <div class="nav-wrapper container">
+    <div class="container">
       <a id="logo-container" href="index.html" class="brand-logo black-text">
         <i class="fas fa-code fa-sm"></i>
       </a>
@@ -30,15 +30,15 @@
           <a href="about.html" class="black-text">About</a>
         </li>
         <li>
-          <a href="contact.html" class="black-text">Contact</a>
+          <a href="contact.html" class="black-text">Contact me</a>
         </li>
       </ul>
       <ul id="nav-mobile" class="side-nav">
-        <li>
+        <li class="active">
           <a href="about.html">About</a>
         </li>
         <li>
-          <a href="contact.html">Contact</a>
+          <a href="contact.html">Contact me</a>
         </li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse">
@@ -48,53 +48,82 @@
   </nav>
   <!-- Nav menu finish -->
 
-  <!-- Page title and intro -->
+  <!-- Page title and intro begin -->
   <header>
     <div class="section white">
       <div class="row container">
-        <h4 class="main-heading header center">About David</h4>
-        <h5 class="center">Passionate about making the Internet as beautiful and simplistic as possible.</h5>
+        <h4 class="main-heading header underline">A bit about me</h4>
+        <h5 class="sub-heading">I'm David, a full-time Web Developer based near Maidstone in Kent. My passion is delivering high quality responsive websites that are beautiful to look at and simplistic to use.</h5>
       </div>
     </div>
   </header>
+  <!-- Page title and intro finish -->
 
-  <!-- Main page content -->
-  <main class="container">
-    <p class="grey-text text-darken-2">Highly experienced team player with 15 years of support background before taking the plunge into the world of Web Development.</p>
-    <p class="grey-text text-darken-2">When not online, I can be found spending time with my wife and our beautiful daughter.</p>
+  <!-- Main page content start -->
+  <main>
+    <div class="blue-grey lighten-5">
+      <div class="container">
+        <div class="row">
+          <div class="col m6 s12">
+            <h5 class="sub-heading-left">Experience</h5>
+            <p>Highly experienced team player with 15 years of support background before taking the plunge into the world of Web Development. In my current role as a Web Developer I am responsible for...</p>
+          </div>
+          <div class="col m6 s12">
+            <h5 class="sub-heading-left">Getting personal</h5>
+            <p>When not online, I can be found spending time with my wife and our beautiful daughter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h5 class="sub-heading">My skill set</h5>
+      <div class="row">
+        <div class="col l3 m4 s6">
+          <img src="images/skillset-images/html.png" class="skill-image">
+        </div>
+        <div class="col l3 m4 s6">
+          <img src="images/skillset-images/css.png" class="skill-image">
+        </div>
+      </div>
+    </div>
   </main>
+  <!-- Main page content finish -->
 
   <!-- Footer start -->
-  <footer class="page-footer grey darken-4">
+  <footer class="page-footer transparent footer-border">
     <div class="container">
       <div class="row">
         <div class="center-align">
           <ul class="list-inline">
             <li>
-              <a class="grey-text text-lighten-3" href="#!"><i class="fab fa-github-square fa-2x"></i></a>
+              <a class="black-text" href="https://github.com/davejreader" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook-square fa-2x"></i></a>
+              <a class="black-text" href="#!"><i class="fab fa-facebook-square fa-2x"></i></a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="#!"><i class="fab fa-twitter-square fa-2x"></i></a>
+              <a class="black-text" href="#!"><i class="fab fa-twitter-square fa-2x"></i></a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container center-align">
-        © David Parnell-Reader
+    <div class="footer-copyright transparent">
+      <div class="container footer-text">
+        © 2018 David Parnell-Reader
       </div>
     </div>
   </footer>
   <!-- Footer end -->
   
-  <!-- jQuery & Materialize JS -->
+  <!-- Javascript -->
+  <!-- jQuery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Materialize -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/init.js"></script>
+  <!-- Custom Javascript -->
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
