@@ -22,7 +22,12 @@ html, body {
   letter-spacing: -0.1rem;
   font-weight: 800;
   text-align: center;
-  font-size: 4.5em;
+  font-size: 5.5em;
+}
+
+.main-title-padding {
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 
 .main-heading {
@@ -53,6 +58,10 @@ html, body {
     font-size: 2em;
     letter-spacing: -0.15rem;
   }
+  .main-title-heading {
+    font-size: 2em;
+    letter-spacing: -0.15rem;
+  }
   .sub-heading {
     font-size: 1.5em;
   }
@@ -60,6 +69,26 @@ html, body {
     font-size: 1.5em;
   }
 
+}
+
+@media screen and (min-width:600px) and (max-width: 1083px) {
+  .main-title-heading {
+    font-size: 4em;
+    letter-spacing: -0.15rem;
+  }
+  .main-heading {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width:513px) and (max-width: 600px) {
+  .main-title-heading {
+    font-size: 3.2em;
+    letter-spacing: -0.15rem;
+  }
+  .main-heading {
+    font-size: 2.2em;
+  }
 }
 
 /* Paragraph */
@@ -88,8 +117,15 @@ p {
   background:#00ffde;
 }
 
+/* Links */
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #000;
+  margin-right: 0;
+}
 
-
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover{
+  color: #000;
+}
 /* Social Links */
 .social-links {
   color: #00ffde;
