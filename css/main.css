@@ -55,15 +55,16 @@ html, body {
 
 @media screen and (max-width: 513px) {
   .main-heading {
-    font-size: 2em;
+    font-size: 2.1em;
     letter-spacing: -0.15rem;
   }
   .main-title-heading {
-    font-size: 2em;
+    font-size: 2.1em;
     letter-spacing: -0.15rem;
   }
   .sub-heading {
-    font-size: 1.5em;
+    font-size: 1.3em;
+    line-height: 25px;
   }
   .sub-heading-left {
     font-size: 1.5em;
@@ -180,6 +181,11 @@ p {
 ----------------------------------------------------------------*/
 .footer-border {
   border-top: 3px solid #00ffde;
+}
+
+.footer-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .footer-text {
