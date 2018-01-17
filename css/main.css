@@ -11,7 +11,20 @@ html, body {
   font-family: 'Fira Sans', sans-serif;
 }
 
+/* Page CSS */
+::selection {
+  background-color: #00ffde;
+}
+
 /* Headings */
+
+.main-title-heading {
+  letter-spacing: -0.1rem;
+  font-weight: 800;
+  text-align: center;
+  font-size: 4.5em;
+}
+
 .main-heading {
   letter-spacing: -0.1rem;
   font-weight: 800;
@@ -24,26 +37,27 @@ html, body {
   line-height: 35px;
   font-weight: 500;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 .sub-heading-left {
   letter-spacing: -0.05rem;
   font-weight: 500;
   text-align: left;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 
 @media screen and (max-width: 513px) {
   .main-heading {
     font-size: 2em;
+    letter-spacing: -0.15rem;
   }
   .sub-heading {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   .sub-heading-left {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
 }
@@ -79,6 +93,21 @@ p {
 /* Social Links */
 .social-links {
   color: #00ffde;
+}
+
+
+/* Button */
+.blue-button {
+  border: 3px solid #00ffde;
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.blue-button:hover {
+  background-color: #00ffde;
 }
 
 /* Creating an in line list */
@@ -144,4 +173,8 @@ nav ul a:hover {
 }
 .side-nav li.active {
     background-color: #00ffde;
+}
+
+.slider .indicators .indicator-item {
+  display: none;
 }
