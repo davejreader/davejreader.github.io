@@ -127,10 +127,7 @@ p {
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover{
   color: #000;
 }
-/* Social Links */
-.social-links {
-  color: #00ffde;
-}
+
 
 
 /* Button */
@@ -146,6 +143,9 @@ p {
 .blue-button:hover {
   background-color: #00ffde;
 }
+
+/* List CSS */
+
 
 /* Creating an in line list */
 
@@ -196,9 +196,13 @@ p {
   color: #000;
 }
 
+/* Social Links */
+.social-links:hover {
+  color: #90a4ae;
+}
 
 /*----------------------------------------------------------------
- Nav CSS
+ Nav CSS - not being used
 ----------------------------------------------------------------*/
 /* Active Navbar */
 nav ul li.active {
