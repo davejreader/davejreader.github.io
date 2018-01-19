@@ -138,13 +138,24 @@ p {
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #000;
   margin-right: 0;
+  text-transform: none;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover{
   color: #000;
 }
-
-
 
 /* Button */
 .blue-button {
@@ -159,9 +170,6 @@ p {
 .blue-button:hover {
   background-color: #00ffde;
 }
-
-/* List CSS */
-
 
 /* Creating an in line list */
 
