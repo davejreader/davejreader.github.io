@@ -241,7 +241,7 @@ Image related CSS
  Footer CSS
 ----------------------------------------------------------------*/
 .footer-border {
-  border-top: 5px solid #00ffde;
+  border-top: 3px solid #00ffde;
 }
 
 .footer-padding {
@@ -254,7 +254,7 @@ Image related CSS
   text-align: center;
   letter-spacing: -0.05rem;
   font-weight: 300;
-  color: #000;
+  color: #fff;
 }
 
 /* Social Links */
